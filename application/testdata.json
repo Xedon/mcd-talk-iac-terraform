@@ -1,0 +1,5 @@
+{
+  "UserId": { "S": "f718b446-2098-483b-ad3b-a433bd04f158" },
+  "GameTitle": { "S": "Doom" },
+  "Score": { "N": "9000" }
+}
