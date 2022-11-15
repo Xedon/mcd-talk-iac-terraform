@@ -17,6 +17,9 @@ terraform: PARAMS=--entrypoint /bin/sh
 terraform:
 	${TERRAFORM_COMMAND}
 
+bootstrap-init:
+	${TERRAFORM_COMMAND} -chdir=bootstrap init
+
 bootstrap-plan:
 	${TERRAFORM_COMMAND} -chdir=bootstrap plan
 
